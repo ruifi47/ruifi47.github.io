@@ -21,7 +21,7 @@ timezone: Europe/Lisbon
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: ruifi47 Blog                        # the main title
+title: ruifi47                         # the main title
 
 tagline: Tech blog                     # it will display as the sub-title
 
