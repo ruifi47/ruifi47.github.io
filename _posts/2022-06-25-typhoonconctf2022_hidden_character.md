@@ -1,6 +1,6 @@
 ---
 title: TyphoonCon CTF 2022 - Web - Hidden Character writeup
-author: ruifi47
+author: 1337
 date: 2022-06-25 18:00:00 +0100
 categories: [CTF writeups, Typhooncon CTF 2022]
 tags: [ctf-writeups, TyphoonConCTF2022, web, sqli, javascript, backdoor]

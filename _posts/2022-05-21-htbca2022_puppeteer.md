@@ -1,6 +1,6 @@
 ---
 title: HTB Cyber Apocalypse CTF 2022 - Forensics - Puppeteer writeup
-author: ruifi47
+author: 1337
 date: 2022-05-21 23:00:00 +0100
 categories: [CTF writeups, HackTheBox Cyber Apocalypse CTF 2022]
 tags: [ctf-writeups, HackTheBox, HTBca2022, windows-forensics]
