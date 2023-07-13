@@ -1,5 +1,5 @@
 ---
-title: Decrypting Cobalt Strike beacon traffic - Kalmar CTF 2023 lleHSyniT! writeup
+title: Decrypting Cobalt Strike traffic - Kalmar CTF 2023 lleHSyniT! writeup
 author: ruifi47
 date: 2023-03-07 19:00:00 +0100
 categories: [CTF writeups, Kalmar CTF 2023]
