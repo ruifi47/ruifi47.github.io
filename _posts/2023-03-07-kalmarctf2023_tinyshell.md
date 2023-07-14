@@ -100,7 +100,7 @@ From the tool [1768.py](https://github.com/DidierStevens/DidierStevensSuite/blob
 GET requests use path `/g.pixel` (option 0x0008), and POST requests use path `/submit.php` (option 0x000a)
 At the bottom we also get info about a guess of the Cobalt Strike version (`4.3`).
 We also get a lot of other information like the payload type (`windows-beacon_http-reverse_http`), public key, Host Header, etc.
-Even knowing that the output didn't give us a known RSA private key, we have a process memory dump thta we can leverage to decrypt the CS traffic using the approach documented in [this blog post](https://blog.nviso.eu/2021/11/03/cobalt-strike-using-process-memory-to-decrypt-traffic-part-3/) written by Didier Stevens from NVISO Labs.
+Even knowing that the output didn't give us a known RSA private key, we have a process memory dump that we can leverage to decrypt the CS traffic using the approach documented in [this blog post](https://blog.nviso.eu/2021/11/03/cobalt-strike-using-process-memory-to-decrypt-traffic-part-3/) written by Didier Stevens from NVISO Labs.
 
 The tool [cs-extract-key](https://github.com/DidierStevens/DidierStevensSuite/blob/master/cs-extract-key.py) (also from [DidierStevensSuite](https://github.com/DidierStevens/DidierStevensSuite)) looks in the dumped process memory to find valid AES and HMAC keys using different techniques depending on the CS version. An explanation of these techniques can be found [here](https://github.com/DidierStevens/DidierStevensSuite/blob/master/cs-extract-key.py#L70-L160). To efectively use this tool we need a sample of encrypted data of one of the POST requests.
 
@@ -133,7 +133,7 @@ Now it is possible to easily decrypt the traffic with the help of the tool [cs p
 ./cs-parse-traffic.py --extract capture.pcap -k 24a0f5e701439f460d52ef4810f592f3:3c4267894c6fee7a5aaa4d13e0289051
 ```
 
-After the tool finish running, we get some `.vir` files. Analyzing the [cs parse traffic](https://github.com/DidierStevens/DidierStevensSuite/blob/master/cs-parse-traffic.py) terminal output, packet number `1983` contains the POST request with the data of the file `password.txt` that was downloaded from the victim computer (image below).
+After the tool finishes running, we get some `.vir` files. Analyzing the [cs parse traffic](https://github.com/DidierStevens/DidierStevensSuite/blob/master/cs-parse-traffic.py) terminal output, packet number `1983` contains the POST request with the data of the file `password.txt` that was downloaded from the victim computer (image below).
 
 ![cs-parse-traffic output](out-cs-parse-traffic.png){: w="700" h="300" }
 _cs-parse-traffic output_
