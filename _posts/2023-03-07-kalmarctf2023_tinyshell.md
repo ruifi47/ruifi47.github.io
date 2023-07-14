@@ -7,7 +7,7 @@ img_path: /assets/img/posts/ctf-writeups/kalmarctf2023/tinyshell/
 ---
 
 ## __Introduction__
-This writeup presents the intended solution for `lleHSniT!`, one of the forensics challenge of [Kalmar CTF 2023](https://ctftime.org/event/1878).
+This writeup presents the intended solution for `lleHSniT!`, one of the forensics challenges of [Kalmar CTF 2023](https://ctftime.org/event/1878).
 
 ## __Description__
 > One of our users here at StupidCorp ran a malicious binary they were sent over an email. We made a process dump, and dumped the network logs. We think it is TinySHell, can you please help figuring out what happened?
