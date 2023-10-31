@@ -1,18 +1,16 @@
 ---
-title: Decrypting Cobalt Strike traffic - Kalmar CTF 2023 lleHSyniT! writeup
-date: 2023-03-07 19:00:00 +0100
-categories: [CTF writeups, Kalmar CTF 2023]
-tags: [ctf-writeups, kalmarCTF2023, forensics]
+title: Decrypting Cobalt Strike traffic - Kalmar CTF 2023 lleHSyniT! (Forensics) writeup
+date: 2023-03-07 00:00:00 +0000
+categories: [CTF writeups, forensics]
+tags: [CTF writeups, kalmar CTF 2023, forensics, cobalt strike]
 img_path: /assets/img/posts/ctf-writeups/kalmarctf2023/tinyshell/
 ---
 
 ## __Introduction__
 This writeup presents the intended solution for `lleHSniT!`, one of the forensics challenges of [Kalmar CTF 2023](https://ctftime.org/event/1878).
 
-## __Description__
+__Challenge Description__
 > One of our users here at StupidCorp ran a malicious binary they were sent over an email. We made a process dump, and dumped the network logs. We think it is TinySHell, can you please help figuring out what happened?
-
----
 
 ## __Writeup__
 To solve this challenge we received 2 files:

@@ -1,25 +1,23 @@
 ---
-title: TyphoonCon CTF 2022 - Web - Hidden Character writeup
-date: 2022-06-25 18:00:00 +0100
-categories: [CTF writeups, Typhooncon CTF 2022]
-tags: [ctf-writeups, TyphoonConCTF2022, web, sqli, javascript, backdoor]
+title: TyphoonCon CTF 2022 Hidden Character (Web) writeup
+date: 2022-06-25 00:00:00 +0000
+categories: [CTF writeups, web]
+tags: [CTF writeups, TyphoonCon, web, javascript, sqli]
 img_path: /assets/img/posts/ctf-writeups/typhoonconctf2022/hidden-character/
 ---
 
-# __Hidden Character__
-
-### __Challenge Description__
+__Challenge Description__
 
 > It takes one character [ ] to show you the path to salvation. And it takes a hidden character to lead you to the flag
 
-Let's start by accessing the website via the given URL. We are presented with the following login form:
+Let's start by accessing the challenge web application through the URL that was given to us. We are presented with the following login form:
 
 ![hidden_character1](hidden_character1.png)
 _Login form_
 
 The browser extension [Wappalyzer](https://www.wappalyzer.com/ "Wappalyzer") gives us information about the technology stack of the website. This website uses the web framework [express](https://expressjs.com/ "expressjs") for Node.js.
 
-After doing some research about expressjs vulnerabilities and possible ways to bypass the login, I found a [section in HackTricks](https://book.hacktricks.xyz/pentesting-web/login-bypass) about Login Bypass techniques saying:
+After doing some research about expressjs vulnerabilities and possible ways to bypass the login, I found a [section in HackTricks](https://book.hacktricks.xyz/pentesting-web/login-bypass) about Login Bypass techniques stating:
 
 > Check nodejs potential parsing error: password[password]=1
 > - Nodejs will transform that payload to a query similar to the following one:
