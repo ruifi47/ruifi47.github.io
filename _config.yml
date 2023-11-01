@@ -19,7 +19,7 @@ title: ruifi47 # the main title
 tagline: Tech blog # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  Tech blog focused on computer security and hacking.
+  Tech blog focused on computer & network security and ethical hacking.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -181,8 +181,6 @@ exclude:
   - tools
   - README.md
   - LICENSE
-  - gulpfile.js
-  - node_modules
   - rollup.config.js
   - package*.json
 
