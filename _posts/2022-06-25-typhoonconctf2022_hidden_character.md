@@ -1,9 +1,11 @@
 ---
 title: TyphoonCon CTF 2022 Hidden Character (Web) writeup
 date: 2022-06-25 00:00:00 +0000
-categories: [CTF writeups, web]
-tags: [CTF writeups, TyphoonCon, web, javascript, sqli]
-img_path: /assets/img/posts/ctf-writeups/typhoonconctf2022/hidden-character/
+categories: [CTF writeups, Web]
+tags: [writeup, TyphoonCon, web, javascript, sqli]
+media_subpath: /assets/img/posts/ctf-writeups/typhoonconctf2022/hidden-character/
+image:
+  path: typhooncon2022ctf-logo.png
 ---
 
 __Challenge Description__

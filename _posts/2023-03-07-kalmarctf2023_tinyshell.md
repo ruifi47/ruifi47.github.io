@@ -1,9 +1,11 @@
 ---
 title: Decrypting Cobalt Strike traffic - Kalmar CTF 2023 lleHSyniT! (Forensics) writeup
 date: 2023-03-07 00:00:00 +0000
-categories: [CTF writeups, forensics]
-tags: [CTF writeups, kalmar CTF 2023, forensics, cobalt strike]
-img_path: /assets/img/posts/ctf-writeups/kalmarctf2023/tinyshell/
+categories: [CTF writeups, Forensics]
+tags: [writeup, KalmarCTF, forensics, cobalt strike]
+media_subpath: /assets/img/posts/ctf-writeups/kalmarctf2023/tinyshell/
+image:
+    path: Cobalt-strike-anime-guy.png
 ---
 
 ## __Introduction__
